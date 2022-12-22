@@ -3,8 +3,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    background:linear-gradient(353deg, rgba(37, 11, 94, 1) 0%, rgba(49, 220, 255, 1) 98%);
 }
 
 .form__container-input {
@@ -16,7 +14,16 @@
     width: 25rem;
     height: 2rem;
     border-radius: 7px;
-    border: 1px solid grey;
+    border: 3px solid transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    outline:none !important;
+    background: wheat;
+    
+ }
+.form__container-input input:focus{
+    outline: none !important;
+    border: 3px solid rgb(243, 122, 24);  
         
 }
 
@@ -25,7 +32,7 @@
     font-size: 16px;
     font-weight: 500;
     font-style: normal;
-    color: whitesmoke;
+    color: black;
 }
 
 .form__container-submit-btn{
@@ -39,5 +46,7 @@
     height: 2.5rem;
     border-radius: 10px;
     border: transparent;
+    font-weight: 600;
+    background-color: orange;
 
 }
