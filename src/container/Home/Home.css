@@ -1,0 +1,43 @@
+.form__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background:linear-gradient(353deg, rgba(37, 11, 94, 1) 0%, rgba(49, 220, 255, 1) 98%);
+}
+
+.form__container-input {
+    margin: 7px 15px;
+    padding: 10px 0px;
+}
+
+.form__container-input input{
+    width: 25rem;
+    height: 2rem;
+    border-radius: 7px;
+    border: 1px solid grey;
+        
+}
+
+.form__container-input p{
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    color: whitesmoke;
+}
+
+.form__container-submit-btn{
+    margin: 10px;
+
+}
+
+.form__container-submit-btn button{
+
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: transparent;
+
+}
