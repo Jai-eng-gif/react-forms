@@ -27,6 +27,13 @@
         
 }
 
+
+@media screen and (max-width:650px) {
+    .form__container-input input{
+        width: 19rem;
+    }
+}
+
 .form__container-input p{
     font-family: var(--font-family);
     font-size: 16px;
